@@ -1,0 +1,39 @@
+#version: '3.8'
+
+#services:
+#  db:
+#    image: mysql:latest
+#    restart: always
+#    environment:
+#      MYSQL_ROOT_PASSWORD: urubu100
+#    ports:
+#      - '3306:3306'
+#    volumes:
+#      - ./sql:/docker-entrypoint-initdb.d
+
+
+
+
+
+# TESTE
+
+version: '3.8'
+
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: urubu100
+      MYSQL_DATABASE: desafio_esus
+    ports:
+      - '3306:3306' 
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+

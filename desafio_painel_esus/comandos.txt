@@ -1,0 +1,8 @@
+Comandos para rodar o projeto 
+
+
+#pip install mysql-connector-python
+
+pip install pony pony-flask sqlite
+
+pip install pony pymysql
