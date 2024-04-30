@@ -10,4 +10,4 @@ Aqui estão algumas orientações sobre como abordar o desafio:
 - Flask 
 - Pony ORM
 - Docker Desktop  **`esta api está somente com o banco de dados alocado no docker`**.
-2.  Não precisa se preocupar em fazer inserts, ao rodar o comando "docker-compose up no terminal do projeto, ele subirá automaticamente o banco de dados a tabela e 42 inserções da lista .csv disponíbilizada **arquvivo .sql disponível no projeto ./sql**.
+2.  Não precisa se preocupar em fazer inserts, ao rodar o comando "docker-compose up no terminal do projeto, ele subirá automaticamente o banco de dados a tabela e 42 inserções da lista .csv disponíbilizada **arquivo .sql disponível no projeto ./sql**.
